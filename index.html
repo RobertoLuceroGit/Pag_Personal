@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
+
+	<!-- Titulo -->
+	<title>Página Personal</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/img/mouse_01.png">
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<!-- magnific popup -->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- main style -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- responsive -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+<body>
+
+	
+	<!-- centro area -->
+	<div class="hero-area hero-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 offset-lg-2 text-center">
+					<div class="hero-text">
+						<div class="hero-text-tablecell">
+							<h1>B i e n v e n i d o s </h1>
+							<p class="subtitle">Soy Roberto Lucero </p>
+							<p class="subtitle">¿Que desea ver?</p>
+
+							<div class="hero-btns">
+								<a href="P_Informatico.html" class="bordered-btn">Perfil Informático</a>
+								<a href="P_deportivo.html" class="bordered-btn">Perfil Deportivo</a>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin centro area -->
+
+		<!-- header -->
+		<div class="top-header-area" id="sticker">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 text-center">
+						<div class="main-menu-wrap">
+							<!-- logo -->
+							<div class="site-logo">
+								<a href="index.html">
+									<img src="assets/img/mouse_01.png" alt="site-logo" style="opacity: 0.5;">
+								</a>
+							</div>
+							<!-- logo -->
+	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Fin header -->
+
+		
+
+	
+	<!-- footer -->
+	<div class="footer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box about-widget">
+						<h2 class="widget-title">Acerca de mí</h2>
+						<p>Soy un joven de 25 años, esperando trabajar de lo que me apasiona, por suerte mi pasión es la informática y el deporte, es por ello, que nació esta página.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box about-widget">
+						<h2 class="widget-title">Un poco <b>+</b></h2>
+						<p>Siempre intentando aprender, y formándome un poco más, en cualquier aspecto. Con actitudes activas y siempre con respeto. <br> Espero su mensaje a mi mail bettto.lucero@gmail.com</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- Fin footer -->
+	
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<p>Mis redes de Contacto.</p>
+				</div>
+				<div class="col-lg-6 text-right col-md-12">
+					<div class="social-icons">
+						<ul>
+							<li><a href="https://www.facebook.com/beto.lucero.7" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://www.twitter.com/bettolucero" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="https://www.instagram.com/bettolucero" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://linkedin.com/in/roberto-luceroa03a69185" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="mailto:bettto.lucero@gmail.com" id="mailPP"><i class="fab fa-google"></i></a></li>						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin copyright -->
+	
+	<!-- jquery -->
+	<script src="assets/js/jquery-1.11.3.min.js"></script>
+	<!-- bootstrap -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- count down -->
+	<script src="assets/js/jquery.countdown.js"></script>
+	<!-- isotope -->
+	<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+	<!-- owl carousel -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- magnific popup -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- mean menu -->
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<!-- sticker js -->
+	<script src="assets/js/sticker.js"></script>
+	<!-- main js -->
+	<script src="assets/js/main.js"></script>
+    <!-- Mail copia -->
+    <script>
+	    
+	    document.getElementById("mailPP").addEventListener("click", function(event) {
+			event.preventDefault(); // Evitar la navegación a una nueva pestaña o ventana
+
+			// Copiar correo electrónico al portapapeles
+			var email = this.getAttribute("href").replace("mailto:", "");
+			navigator.clipboard.writeText(email);
+
+			// Mostrar ventana emergente
+			alert("Correo copiado en portapapeles: " + email);
+		});
+	</script>
+</body>
+</html>
